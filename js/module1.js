@@ -30,8 +30,8 @@
 // salery = salery.toFixed(3);
 // console.log(salery);
 
-let quantity = '30';
-let value = 'Цей рядок неможливо привести  до числа';
+// let quantity = '30';
+// let value = 'Цей рядок неможливо привести  до числа';
 
 // console.log(Number(false));
 // console.log(Number(true));
@@ -50,3 +50,19 @@ let value = 'Цей рядок неможливо привести  до чис�
 // //приведення до степеня
 
 // console.log(result);
+
+
+//Задачка
+let base = prompt('Давай число');
+base = Number(base);
+
+console.log(base);
+
+let power = prompt('Давай степінь');
+power = Number(power);
+
+console.log(power);
+
+const result = base ** power;
+
+console.log(result);
