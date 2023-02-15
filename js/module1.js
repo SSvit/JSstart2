@@ -69,10 +69,23 @@
 
 // Задача 2 Генеруємо псевдовипадкове число
 
-const max = 80;
-const min = 10;
+// const max = 80;
+// const min = 10;
 
 
-const result = Math.round(Math.random() * (max - min) + min);
+// const result = Math.round(Math.random() * (max - min) + min);
 
-console.log(result);
+// console.log(result);
+
+// Приклад написання коду для зміни фону
+
+const colors = ['tomato', 'teal', 'orange', 'deepping', 'skyblue'];
+const max = colors.length -1;
+const min = 0;
+ const index = Math.round(Math.random() * (max - min) + min);
+
+ const color = colors[index];
+
+ console.log(color);
+
+ document.body.style.backgroundColor = color;
