@@ -52,17 +52,27 @@
 // console.log(result);
 
 
-//Задачка
-let base = prompt('Давай число');
-base = Number(base);
+//Задачка 1
+// let base = prompt('Давай число');
+// base = Number(base);
 
-console.log(base);
+// console.log(base);
 
-let power = prompt('Давай степінь');
-power = Number(power);
+// let power = prompt('Давай степінь');
+// power = Number(power);
 
-console.log(power);
+// console.log(power);
 
-const result = base ** power;
+// const result = base ** power;
+
+// console.log(result);
+
+// Задача 2 Генеруємо псевдовипадкове число
+
+const max = 80;
+const min = 10;
+
+
+const result = Math.round(Math.random() * (max - min) + min);
 
 console.log(result);
