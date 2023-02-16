@@ -98,4 +98,28 @@ const firstName = 'Chelsy';
 const lastName = 'Enerald';
 const fullName = firstName + ' ' + lastName;
 
-console.log(fullName);
+// console.log(fullName);
+
+
+const room = 716;
+const type = 'VIP';
+
+//Метод сшивання - менш зрозумілий
+
+// const welcomeMsg ='Гість' + 
+// firstName + 
+// 'селиться в ' + 
+// type + 
+// ' номер ' + 
+// room;
+
+// шаблонний метод - зрозумілий
+const welcomeMsg = `Гість ${firstName} ${lastName} селиться в ${type} номер ${room}`;
+console.log(welcomeMsg);
+
+// const quantity = 15;
+// const orderMsg = `Ви замовляєте ${quantity} холодильників`;
+
+// console.log(orderMsg);
+
+
