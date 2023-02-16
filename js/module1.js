@@ -133,3 +133,20 @@
 // brand = brand.toLowerCase();
 
 // console.log(brand);
+
+
+const blacklistedWord1 = 'спам';
+const blacklistedWord2 = 'розпродаж'
+
+const string1 = 'Привіт, я принц Абдул, це не спам, пропоную тобі мільйон!';
+const string2 = 'Найбільша РОЗПРОДАЖА цього тижня, не пропустіть!'
+const string3 = 'Рекламна компанія #fatlivesmatter';
+
+console.log(string1.includes(blacklistedWord1));
+console.log(string1.includes(blacklistedWord2));
+
+console.log(string2.includes(blacklistedWord1));
+console.log(string2.toLowerCase().includes(blacklistedWord2));
+
+console.log(string3.includes(blacklistedWord1));
+console.log(string3.includes(blacklistedWord2));
