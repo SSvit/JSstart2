@@ -90,6 +90,11 @@
 
 //  document.body.style.backgroundColor = color;
 
-const massage = 'В цьому рядку 25 символів';
+// const massage = 'В цьому рядку 25 символів';
 
-console.log(massage.length);
+// console.log(massage.length);
+
+const firstName = 'Chelsy';
+const lastName = 'Enerald';
+
+console.log('sad ' + ' ghjk' + ' jhkj');
