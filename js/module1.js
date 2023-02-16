@@ -79,13 +79,17 @@
 
 // Приклад написання коду для зміни фону
 
-const colors = ['tomato', 'teal', 'orange', 'deepping', 'skyblue'];
-const max = colors.length -1;
-const min = 0;
- const index = Math.round(Math.random() * (max - min) + min);
+// const colors = ['tomato', 'teal', 'orange', 'deepping', 'skyblue'];
+// const max = colors.length -1;
+// const min = 0;
+//  const index = Math.round(Math.random() * (max - min) + min);
 
- const color = colors[index];
+//  const color = colors[index];
 
- console.log(color);
+//  console.log(color);
 
- document.body.style.backgroundColor = color;
+//  document.body.style.backgroundColor = color;
+
+const massage = 'В цьому рядку 25 символів';
+
+console.log(massage.length);
