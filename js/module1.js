@@ -94,32 +94,42 @@
 
 // console.log(massage.length);
 
-const firstName = 'Chelsy';
-const lastName = 'Enerald';
-const fullName = firstName + ' ' + lastName;
+// const firstName = 'Chelsy';
+// const lastName = 'Enerald';
+// const fullName = firstName + ' ' + lastName;
 
-// console.log(fullName);
+// // console.log(fullName);
 
 
-const room = 716;
-const type = 'VIP';
+// const room = 716;
+// const type = 'VIP';
 
-//Метод сшивання - менш зрозумілий
+// //Метод сшивання - менш зрозумілий
 
-// const welcomeMsg ='Гість' + 
-// firstName + 
-// 'селиться в ' + 
-// type + 
-// ' номер ' + 
-// room;
+// // const welcomeMsg ='Гість' + 
+// // firstName + 
+// // 'селиться в ' + 
+// // type + 
+// // ' номер ' + 
+// // room;
 
-// шаблонний метод - зрозумілий
-const welcomeMsg = `Гість ${firstName} ${lastName} селиться в ${type} номер ${room}`;
-console.log(welcomeMsg);
+// // шаблонний метод - зрозумілий
+// const welcomeMsg = `Гість ${firstName} ${lastName} селиться в ${type} номер ${room}`;
+// console.log(welcomeMsg);
 
 // const quantity = 15;
 // const orderMsg = `Ви замовляєте ${quantity} холодильників`;
 
 // console.log(orderMsg);
 
+// //Регістр
+// let brand = 'Samsung';
+// brand = brand.toLowerCase();
 
+// console.log(brand);
+
+// //з випливаючим вікном
+// let brand = prompt('Давай бренд');
+// brand = brand.toLowerCase();
+
+// console.log(brand);
