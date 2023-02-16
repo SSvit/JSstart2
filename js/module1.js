@@ -96,5 +96,6 @@
 
 const firstName = 'Chelsy';
 const lastName = 'Enerald';
+const fullName = firstName + ' ' + lastName;
 
-console.log('sad ' + ' ghjk' + ' jhkj');
+console.log(fullName);
