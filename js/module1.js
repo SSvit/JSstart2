@@ -152,16 +152,30 @@
 // console.log(string3.includes(blacklistedWord2));
 
 
-const salary = 1500;
+// const salary = 1500;
 
-if (salary <= 500) {
-    console.log('Рівень 1');
-} else if (salary > 500 && salary <= 1500) {
-    console.log('Рівень 2');
-} else if (salary > 1500 && salary < 3000) {
-    console.log('Рівень 3');
-} else {
-    console.log('Рівень 4');
-}
+// if (salary <= 500) {
+//     console.log('Рівень 1');
+// } else if (salary > 500 && salary <= 1500) {
+//     console.log('Рівень 2');
+// } else if (salary > 1500 && salary < 3000) {
+//     console.log('Рівень 3');
+// } else {
+//     console.log('Рівень 4');
+// }
 
-console.log('Рівень 5 - вирішальний');
+// console.log('Рівень 5 - вирішальний');
+
+
+const balance = -1000;
+// let message;
+
+// if (balance >= 0) {
+//     message = 'Позитивний баланс';
+// } else {
+//     message = 'Негативний баланс';
+// }
+
+const message = balance >= 0 ? 'Позитивний баланс' : 'Негативний баланс';
+
+console.log(message);
