@@ -183,8 +183,8 @@
 
 //?Задача, ріщення якої можна замінити switch
 
-const stars = 1;
-let price;
+// const stars = 1;
+// let price;
 
 // if (stars === 1) {
 //     price = 20;
@@ -200,20 +200,58 @@ let price;
 //     console.log('Такої кількості зірок немає');
 // }
 
+// switch (stars) {
+//     case 1:
+//         price = 20;
+//         break;
+
+//     case 2:
+//         price = 30;
+//         break;
+//     case 3:
+//         price = 50;
+//         break;
+//     case 4:
+//         price = 70;
+//         break;
+//     case 5:
+//         price = 120;
+//         break;
+
+//     default:
+//         console.log('Такої кількості зірок немає');
+// } 
+
+// console.log(price);
+
+
+const stars = 1;
+let price;
+
+if (stars === 1 ||stars === 2 ) {
+    price = 20;
+} else if (stars === 3 || stars === 4) {
+    price = 30;
+} else if (stars === 5) {
+    price = 120;
+} else {
+    console.log('Такої кількості зірок немає');
+}
+
+console.log(price);
+
+
 switch (stars) {
     case 1:
+    case 2:
         price = 20;
         break;
 
-    case 2:
+    case 3:
+    case 4:
         price = 30;
         break;
-    case 3:
-        price = 50;
-        break;
-    case 4:
-        price = 70;
-        break;
+    
     case 5:
         price = 120;
         break;
