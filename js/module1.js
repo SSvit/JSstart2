@@ -167,15 +167,17 @@
 // console.log('Рівень 5 - вирішальний');
 
 
-const balance = -1000;
-// let message;
+// const balance = -1000;
+// // let message;
 
-// if (balance >= 0) {
-//     message = 'Позитивний баланс';
-// } else {
-//     message = 'Негативний баланс';
-// }
+// // if (balance >= 0) {
+// //     message = 'Позитивний баланс';
+// // } else {
+// //     message = 'Негативний баланс';
+// // }
 
-const message = balance >= 0 ? 'Позитивний баланс' : 'Негативний баланс';
+// const message = balance >= 0 ? 'Позитивний баланс' : 'Негативний баланс';
 
-console.log(message);
+// console.log(message);
+
+
