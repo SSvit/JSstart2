@@ -283,8 +283,24 @@
 
 
 
-for (let i = 0; i< 10; i += 1) {
-    console.log(i);
+// for (let i = 0; i< 10; i += 1) {
+//     console.log(i);
+// }
+
+// console.log('sdcfvgbf');
+
+
+const minSalary = 500;
+const maxSalary = 5000;
+const employees = 12;
+let totalSalary = 0;
+
+for (let i = 1; i <= employees; i +=1) {
+    const salary = Math.round(Math.random() * (maxSalary) - (minSalary) + (minSalary));
+
+    console.log(`ЗП робітника номер ${i} - ${salary}`);
+
+    totalSalary += salary;
 }
 
-console.log('sdcfvgbf');
+console.log('totalSalary: ', totalSalary);
