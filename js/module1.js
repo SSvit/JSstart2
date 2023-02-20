@@ -225,39 +225,57 @@
 // console.log(price);
 
 
-const stars = 1;
-let price;
+// const stars = 1;
+// let price;
 
-if (stars === 1 ||stars === 2 ) {
-    price = 20;
-} else if (stars === 3 || stars === 4) {
-    price = 30;
-} else if (stars === 5) {
-    price = 120;
-} else {
-    console.log('Такої кількості зірок немає');
+// if (stars === 1 ||stars === 2 ) {
+//     price = 20;
+// } else if (stars === 3 || stars === 4) {
+//     price = 30;
+// } else if (stars === 5) {
+//     price = 120;
+// } else {
+//     console.log('Такої кількості зірок немає');
+// }
+
+// console.log(price);
+
+
+// switch (stars) {
+//     case 1:
+//     case 2:
+//         price = 20;
+//         break;
+
+//     case 3:
+//     case 4:
+//         price = 30;
+//         break;
+    
+//     case 5:
+//         price = 120;
+//         break;
+
+//     default:
+//         console.log('Такої кількості зірок немає');
+// } 
+
+// console.log(price);
+
+
+const option = 2;
+let message = '';
+
+switch(option) {
+    case 1:
+        message = 'Ви можете забрати товар завтра з 12.00 в нашому офісі';
+        break;
+    case 2:
+        message = 'Курєр доставить замовлення з 9.00 до 18.00';
+        break;
+  
+    default:
+        message = 'Ви можете забрати товар завтра з 12.00 в нашому офісі';
 }
 
-console.log(price);
-
-
-switch (stars) {
-    case 1:
-    case 2:
-        price = 20;
-        break;
-
-    case 3:
-    case 4:
-        price = 30;
-        break;
-    
-    case 5:
-        price = 120;
-        break;
-
-    default:
-        console.log('Такої кількості зірок немає');
-} 
-
-console.log(price);
+console.log(message);
