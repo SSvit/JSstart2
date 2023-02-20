@@ -237,6 +237,7 @@
 // } else {
 //     console.log('Такої кількості зірок немає');
 // }
+<<<<<<< Updated upstream
 
 // console.log(price);
 
@@ -279,3 +280,33 @@ switch(option) {
 }
 
 console.log(message);
+=======
+
+// console.log(price);
+
+
+// switch (stars) {
+//     case 1:
+//     case 2:
+//         price = 20;
+//         break;
+
+//     case 3:
+//     case 4:
+//         price = 30;
+//         break;
+    
+//     case 5:
+//         price = 120;
+//         break;
+
+//     default:
+//         console.log('Такої кількості зірок немає');
+// } 
+
+// console.log(price);
+
+
+
+
+>>>>>>> Stashed changes
