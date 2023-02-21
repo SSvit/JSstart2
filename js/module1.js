@@ -238,6 +238,7 @@
 //     console.log('Такої кількості зірок немає');
 // }
 
+
 // console.log(price);
 
 
@@ -273,9 +274,47 @@
 //     case 2:
 //         message = 'Курєр доставить замовлення з 9.00 до 18.00';
 //         break;
-  
+
 //     default:
 //         message = 'Ви можете забрати товар завтра з 12.00 в нашому офісі';
 // }
 
 // console.log(message);
+
+
+
+// for (let i = 0; i< 10; i += 1) {
+//     console.log(i);
+// }
+
+// console.log('sdcfvgbf');
+
+
+// const minSalary = 500;
+// const maxSalary = 5000;
+// const employees = 12;
+// let totalSalary = 0;
+
+// for (let i = 1; i <= employees; i +=1) {
+//     const salary = Math.round(Math.random() * (maxSalary) - (minSalary) + (minSalary));
+
+//     console.log(`ЗП робітника номер ${i} - ${salary}`);
+
+//     totalSalary += salary;
+// }
+
+// console.log('totalSalary: ', totalSalary);
+
+
+
+const minv = 6;
+const max = 13;
+let total = 0;
+
+for (let i = min; i <= max; i += 2) {
+     console.log(i);
+
+    if (i % 2 === 0) {
+        console.log('парне число: ', i);
+    }
+}
