@@ -263,19 +263,19 @@
 // console.log(price);
 
 
-const option = 2;
-let message = '';
+// const option = 2;
+// let message = '';
 
-switch(option) {
-    case 1:
-        message = 'Ви можете забрати товар завтра з 12.00 в нашому офісі';
-        break;
-    case 2:
-        message = 'Курєр доставить замовлення з 9.00 до 18.00';
-        break;
+// switch(option) {
+//     case 1:
+//         message = 'Ви можете забрати товар завтра з 12.00 в нашому офісі';
+//         break;
+//     case 2:
+//         message = 'Курєр доставить замовлення з 9.00 до 18.00';
+//         break;
   
-    default:
-        message = 'Ви можете забрати товар завтра з 12.00 в нашому офісі';
-}
+//     default:
+//         message = 'Ви можете забрати товар завтра з 12.00 в нашому офісі';
+// }
 
-console.log(message);
+// console.log(message);
