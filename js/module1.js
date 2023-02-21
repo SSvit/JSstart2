@@ -306,7 +306,7 @@
 // console.log('totalSalary: ', totalSalary);
 
 
-
+//задачка
 const minv = 6;
 const max = 13;
 let total = 0;
