@@ -307,14 +307,39 @@
 
 
 //задачка
-const minv = 6;
-const max = 13;
-let total = 0;
+// const min = 6;
+// const max = 13;
+// let total = 0;
 
-for (let i = min; i <= max; i += 2) {
-     console.log(i);
+// for (let i = min; i <= max; i += 2) {
+//      console.log(i);
 
-    if (i % 2 === 0) {
-        console.log('парне число: ', i);
-    }
-}
+//     if (i % 2 === 0) {
+//         console.log('парне число: ', i);
+
+//         total += i;
+//     }
+// }
+
+// console.log('total: ', total);
+
+// логіка від обратного (спочатку перевіряємо поганий кейс, якщо він не виконався виконуєтьсчя весь інший код)
+
+// const min = 6;
+// const max = 13;
+// let total = 0;
+
+// for (let i = min; i <= max; i += 2) {
+//      console.log(i);
+
+//     if (i % 2 !== 0) {
+//         console.log('непарне число: ', i);
+//         continue;
+//     }
+
+//     console.log('парне число: ', i);
+
+//     total += i;
+// }
+
+// console.log('total: ', total);
