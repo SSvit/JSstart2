@@ -1,9 +1,9 @@
-// const friends = ['Mango', 'Kivi', 'Poly', 'Ajax'];
-// console.log(friends);
+const friends = ['Mango', 'Kivi', 'Poly', 'Ajax'];
+console.table(friends);
 
-// friends[1] = 'kjhgfcvbn';
+friends[1] = 'kjhgfcvbn';
 
-// console.log(friends[2]);
+console.table(friends[2]);
 
-// const lastIndex = friends.length - 1;
-// console.log(lastIndex);
+const lastIndex = friends.length - 1;
+console.log(lastIndex);
