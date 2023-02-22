@@ -6,7 +6,7 @@
 // console.table(friends[2]);
 
 // const lastIndex = friends.length - 1;
-// consola 
+// console.log(lastIndex);
 
 
 // const a = [1, 2, 3];
@@ -25,3 +25,26 @@
 
 // console.log([1, 2, 3] === [1, 2, 3]);
 // //а не дорівнює b, тому що це посилання, складний тип
+
+
+
+
+
+// const friends = ['Mango', 'Kivi', 'Poly', 'Ajax'];
+// console.table(friends);
+// // // 1 спосіб
+// // const lastIndex = friends.length - 1;
+
+// // for (let i = 0; i <= lastIndex; i += 1) {
+// //     console.log('lkjh');
+// // }
+
+
+// // 2 спосіб
+// for (let i = 0; i < friends.length; i += 1) {
+//     friends[i] += '-1';
+// // щоб змінити елемент масиву
+// }
+
+// console.table(friends);
+// // Якщо потрібно зиінити елемент масиву використовуємо for
