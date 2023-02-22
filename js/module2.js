@@ -28,8 +28,6 @@
 
 
 
-
-
 // const friends = ['Mango', 'Kivi', 'Poly', 'Ajax'];
 // console.table(friends);
 // // // 1 спосіб
@@ -48,3 +46,12 @@
 
 // console.table(friends);
 // // Якщо потрібно зиінити елемент масиву використовуємо for
+
+
+// const friends = ['Mango', 'Kivi', 'Poly', 'Ajax'];
+// // console.table(friends);
+
+// // щоб перебрати елементи
+// for (const friend of friends) {
+//     console.log(friend);
+// }
