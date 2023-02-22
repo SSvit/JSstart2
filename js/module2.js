@@ -55,3 +55,23 @@
 // for (const friend of friends) {
 //     console.log(friend);
 // }
+
+
+// const cart = [23, 45, 32, 67, 89, 65];
+// let total = 0;
+
+// // // або
+// // for (let i = 0, i < cart.length; i += 1) {
+// //     console.log(cart[i]);
+// // }
+
+// // total += cart[i];
+
+// // або
+// for (const value of cart) {
+//     total += value;
+// }
+
+// console.log('Total: ', total);
+
+
