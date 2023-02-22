@@ -61,7 +61,7 @@
 // let total = 0;
 
 // // // або
-// // for (let i = 0, i < cart.length; i += 1) {
+// // for (let i = 0; i < cart.length; i += 1) {
 // //     console.log(cart[i]);
 // // }
 
@@ -75,3 +75,10 @@
 // console.log('Total: ', total);
 
 
+// const cart = [23, 45, 32, 67, 89, 65];
+
+// for (let i = 0; i < cart.length; i += 1) {
+// cart[i] = Math.round(cart[i] * 1.1);
+// }
+
+// console.log(cart);
