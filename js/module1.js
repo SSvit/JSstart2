@@ -345,18 +345,27 @@
 // console.log('total: ', total);
 
 
-// let balance = 10000;
-// const payment = 2000;
+// let totalSpent = 2000;
+// let payment = 500;
+// let discount = 0;
 
-// console.log(`Загальна сума замовлення ${payment} кредитів. Перевіряємо кількість доступних коштів на рахунку.`);
-
-// if (payment <= balance) {
-//     balance -= payment;
-
-//     console.log('Все добре, знімаємо гроші. Дякуємо за покупку');
-//     console.log(`На рахунку залишилося ${balance} кредитів.`);
+// if (totalSpent >= 100 && totalSpent < 1000) {
+//     console.log('Бронзовий партнер, знижка 2%');
+//     discount = 0.02;
+// } else if (totalSpent >= 1000 && totalSpent < 5000) {
+//     console.log('Срібний партнер, знижка 5%');
+//     discount = 0.05;
+// } else if (totalSpent >= 5000) {
+//     console.log('Золотий партнер, знижка 10%');
+//     discount = 0.1;
 // } else {
-//     console.log('На рахунку недостатньо коштів для проведення операції!');
+//     console.log('Не партнер, знижка 0%');
 // }
+//   payment -= payment * discount;
 
-// console.log('Операція завершена!');
+
+//   console.log(`Оформлюємо замовлення на суму ${payment} зі знижкою ${discount * 100}%`);
+
+//   totalSpent += payment;
+
+//   console.log(`Загальна сума витраченого: ${totalSpent}%`);
