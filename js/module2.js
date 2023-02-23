@@ -82,3 +82,34 @@
 // }
 
 // console.log(cart);
+
+
+const numbers = [1, 5, 8, 9, 10, 15, 22, 14, 56, 42, 84];
+let total = 0;
+
+// // 1 спосіб
+// for (let i = 0; i < numbers.length; i +=1) {
+//     const number = numbers[i];
+//     console.log(number);
+
+//     if (number % 2 === 0){
+//         console.log('Парне!');
+
+//         total += number;
+//     }
+// }
+
+// console.log(total);
+
+// 2 спосіб
+
+for (const number of numbers) {
+    console.log(number);
+
+    if (number % 2 === 0) {
+            console.log('Парне!');
+            total += number;
+        }
+}
+
+console.log('Total:', total);
