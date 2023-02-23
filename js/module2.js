@@ -117,7 +117,8 @@ let total = 0;
 
 const logins = ['rrDoge', 'jjKivi', 'ssPoly', 'bbKet'];
 const loginToFind = 'ssPoly';
-let message = `Користувач ${loginToFind} не найден.`;
+// // 1, 2 спосіб
+// let message = `Користувач ${loginToFind} не найден.`;
 
 // // 1 спосіб
 // for (let i = 0; i < logins.length; i += 1) {
@@ -146,4 +147,11 @@ let message = `Користувач ${loginToFind} не найден.`;
 //     }
 
 // }
+// console.log(message);
+
+// // 3 спосіб (декларативний код)
+// const message = logins.includes(loginToFind)
+// ? `Користувач ${loginToFind} найден.`
+// : `Користувач ${loginToFind} найден.`;
+
 // console.log(message);
