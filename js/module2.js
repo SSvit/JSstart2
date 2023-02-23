@@ -103,13 +103,47 @@ let total = 0;
 
 // 2 спосіб
 
-for (const number of numbers) {
-    console.log(number);
+// for (const number of numbers) {
+//     console.log(number);
 
-    if (number % 2 === 0) {
-            console.log('Парне!');
-            total += number;
-        }
-}
+//     if (number % 2 === 0) {
+//             console.log('Парне!');
+//             total += number;
+//         }
+// }
 
-console.log('Total:', total);
+// console.log('Total:', total);
+
+
+const logins = ['rrDoge', 'jjKivi', 'ssPoly', 'bbKet'];
+const loginToFind = 'ssPoly';
+let message = `Користувач ${loginToFind} не найден.`;
+
+// // 1 спосіб
+// for (let i = 0; i < logins.length; i += 1) {
+//     const login = logins[i];
+
+//     console.log('Login: ', login);
+//     console.log(`${login} === ${loginToFind}: `, login === loginToFind);
+
+//     if (login === loginToFind) {
+//         console.log('Ура! рівні!!!');
+//         message = `Користувач ${loginToFind} найден.`;
+//         break;
+//     }
+// }
+// console.log(message);
+
+// // 2 спосіб
+// for (const login of logins) {
+//     console.log('Login: ', login);
+//     console.log(`${login} === ${loginToFind}: `, login === loginToFind); 
+
+//     if (login === loginToFind) {
+//         console.log('Ура! рівні!!!');
+//         message = `Користувач ${loginToFind} найден.`;
+//         break;
+//     }
+
+// }
+// console.log(message);
