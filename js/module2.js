@@ -84,8 +84,8 @@
 // console.log(cart);
 
 
-const numbers = [1, 5, 8, 9, 10, 15, 22, 14, 56, 42, 84];
-let total = 0;
+// const numbers = [1, 5, 8, 9, 10, 15, 22, 14, 56, 42, 84];
+// let total = 0;
 
 // // 1 спосіб
 // for (let i = 0; i < numbers.length; i +=1) {
@@ -115,8 +115,8 @@ let total = 0;
 // console.log('Total:', total);
 
 
-const logins = ['rrDoge', 'jjKivi', 'ssPoly', 'bbKet'];
-const loginToFind = 'ssPoly';
+// const logins = ['rrDoge', 'jjKivi', 'ssPoly', 'bbKet'];
+// const loginToFind = 'ssPoly';
 // // 1, 2 спосіб
 // let message = `Користувач ${loginToFind} не найден.`;
 
@@ -155,3 +155,15 @@ const loginToFind = 'ssPoly';
 // : `Користувач ${loginToFind} найден.`;
 
 // console.log(message);
+
+
+const numbers = [51, 18, 13, 24, 7, 85, 19];
+let smallestNumber = numbers[0];
+
+for (const number of numbers) {
+    if (number < smallestNumber) {
+        smallestNumber = number;
+    }
+}
+
+console.log('smallestNumber: ', smallestNumber);
