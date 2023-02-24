@@ -157,13 +157,20 @@
 // console.log(message);
 
 
-const numbers = [51, 18, 13, 24, 7, 85, 19];
-let smallestNumber = numbers[0];
+// const numbers = [51, 18, 13, 24, 7, 85, 19];
+// let smallestNumber = numbers[0];
 
-for (const number of numbers) {
-    if (number < smallestNumber) {
-        smallestNumber = number;
-    }
-}
+// for (const number of numbers) {
+//     if (number < smallestNumber) {
+//         smallestNumber = number;
+//     }
+// }
 
-console.log('smallestNumber: ', smallestNumber);
+// console.log('smallestNumber: ', smallestNumber);
+
+
+const friends = ['Mango', 'Poly', 'Kivi', 'Ajax'];
+
+const string = friends.join(', ');
+console.log(friends);
+console.log(string);
