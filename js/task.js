@@ -30,3 +30,17 @@
 // console.log("0".length);
 
 // lastNameLength = lastName;
+
+
+// var a = 34;
+// var b = 20;
+// var c = "Новий";
+
+// a = a + 2;
+// console.log(a);
+
+// b = b - 5;
+// console.log(b);
+
+// c = c + " рядок!";
+// console.log(c);
