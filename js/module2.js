@@ -176,24 +176,40 @@
 // console.log(string);
 
 
-const string = 'JavaScript';
-const letters = string.split('');
-let invertedString = '';
+// const string = 'JavaScript';
+// const letters = string.split('');
+// let invertedString = '';
 
-console.log(letters);
+// console.log(letters);
 
-for (const letter of letters) {
-    console.log(letter);
+// for (const letter of letters) {
+//     console.log(letter);
 
-    // if (letter === letter.toLowerCase()) {
-    //     console.log('Ця літера в нижньому регістрі! - ', letter);
+//     // if (letter === letter.toLowerCase()) {
+//     //     console.log('Ця літера в нижньому регістрі! - ', letter);
 
-    //     invertedString += letter.toUpperCase();
-    // } else {
-    //     invertedString += letter.toLowerCase();
-    // }
+//     //     invertedString += letter.toUpperCase();
+//     // } else {
+//     //     invertedString += letter.toLowerCase();
+//     // }
 
-    invertedString += letter === letter.toLowerCase() ? letter.toUpperCase() : letter.toLowerCase();
-}
+//     invertedString += letter === letter.toLowerCase() ? letter.toUpperCase() : letter.toLowerCase();
+// }
 
-console.log(invertedString);
+// console.log(invertedString);
+
+
+// const title = 'Top 10 benefits of React framework';
+
+// // const normalizedTitle = title.toLowerCase();
+// // console.log(normalizedTitle);
+
+// // const words = normalizedTitle.split(" ");
+// // console.log(words);
+
+// // const slug = words.join('-');
+// // console.log(slug);
+
+// const slug1 = title.toLowerCase().split(' ').join('-');
+
+// console.log(slug1);
