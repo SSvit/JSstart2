@@ -169,8 +169,31 @@
 // console.log('smallestNumber: ', smallestNumber);
 
 
-const friends = ['Mango', 'Poly', 'Kivi', 'Ajax'];
+// const friends = ['Mango', 'Poly', 'Kivi', 'Ajax'];
 
-const string = friends.join(', ');
-console.log(friends);
-console.log(string);
+// const string = friends.join(', ');
+// console.log(friends);
+// console.log(string);
+
+
+const string = 'JavaScript';
+const letters = string.split('');
+let invertedString = '';
+
+console.log(letters);
+
+for (const letter of letters) {
+    console.log(letter);
+
+    // if (letter === letter.toLowerCase()) {
+    //     console.log('Ця літера в нижньому регістрі! - ', letter);
+
+    //     invertedString += letter.toUpperCase();
+    // } else {
+    //     invertedString += letter.toLowerCase();
+    // }
+
+    invertedString += letter === letter.toLowerCase() ? letter.toUpperCase() : letter.toLowerCase();
+}
+
+console.log(invertedString);
