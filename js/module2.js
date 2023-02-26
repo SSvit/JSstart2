@@ -8,7 +8,6 @@
 // const lastIndex = friends.length - 1;
 // console.log(lastIndex);
 
-
 // const a = [1, 2, 3];
 // const b = a;
 
@@ -20,13 +19,11 @@
 // console.log('a', a);
 // console.log('b', b);
 
-// console.log(a === b); 
+// console.log(a === b);
 // // a дорівнює b
 
 // console.log([1, 2, 3] === [1, 2, 3]);
 // //а не дорівнює b, тому що це посилання, складний тип
-
-
 
 // const friends = ['Mango', 'Kivi', 'Poly', 'Ajax'];
 // console.table(friends);
@@ -37,7 +34,6 @@
 // //     console.log('lkjh');
 // // }
 
-
 // // 2 спосіб
 // for (let i = 0; i < friends.length; i += 1) {
 //     friends[i] += '-1';
@@ -47,7 +43,6 @@
 // console.table(friends);
 // // Якщо потрібно зиінити елемент масиву використовуємо for
 
-
 // const friends = ['Mango', 'Kivi', 'Poly', 'Ajax'];
 // // console.table(friends);
 
@@ -55,7 +50,6 @@
 // for (const friend of friends) {
 //     console.log(friend);
 // }
-
 
 // const cart = [23, 45, 32, 67, 89, 65];
 // let total = 0;
@@ -74,7 +68,6 @@
 
 // console.log('Total: ', total);
 
-
 // const cart = [23, 45, 32, 67, 89, 65];
 
 // for (let i = 0; i < cart.length; i += 1) {
@@ -82,7 +75,6 @@
 // }
 
 // console.log(cart);
-
 
 // const numbers = [1, 5, 8, 9, 10, 15, 22, 14, 56, 42, 84];
 // let total = 0;
@@ -114,7 +106,6 @@
 
 // console.log('Total:', total);
 
-
 // const logins = ['rrDoge', 'jjKivi', 'ssPoly', 'bbKet'];
 // const loginToFind = 'ssPoly';
 // // 1, 2 спосіб
@@ -138,7 +129,7 @@
 // // 2 спосіб
 // for (const login of logins) {
 //     console.log('Login: ', login);
-//     console.log(`${login} === ${loginToFind}: `, login === loginToFind); 
+//     console.log(`${login} === ${loginToFind}: `, login === loginToFind);
 
 //     if (login === loginToFind) {
 //         console.log('Ура! рівні!!!');
@@ -156,7 +147,6 @@
 
 // console.log(message);
 
-
 // const numbers = [51, 18, 13, 24, 7, 85, 19];
 // let smallestNumber = numbers[0];
 
@@ -168,13 +158,11 @@
 
 // console.log('smallestNumber: ', smallestNumber);
 
-
 // const friends = ['Mango', 'Poly', 'Kivi', 'Ajax'];
 
 // const string = friends.join(', ');
 // console.log(friends);
 // console.log(string);
-
 
 // const string = 'JavaScript';
 // const letters = string.split('');
@@ -198,7 +186,6 @@
 
 // console.log(invertedString);
 
-
 // const title = 'Top 10 benefits of React framework';
 
 // // const normalizedTitle = title.toLowerCase();
@@ -214,7 +201,6 @@
 
 // console.log(slug1);
 
-
 // const array1 = [5, 10, 15, 20];
 // const array2 = [10, 20, 30];
 // let total = 0;
@@ -223,6 +209,38 @@
 
 // for (const number of numbers) {
 //     total += number;
-// } 
+// }
 
 // console.log(total);
+
+const cards = [
+  'Картка-1',
+  'Картка-2',
+  'Картка-3',
+  'Картка-4',
+  'Картка-5',
+];
+
+console.table(cards);
+
+// const cardToRemove = 'Картка-3';
+// const index = cards.indexOf(cardToRemove);
+// console.log(index);
+
+// console.log(cards.splice(index, 1));
+
+// console.table(cards);
+
+// const cardToInsert = 'Картка-6';
+// const index = 5;
+
+// cards.splice(index, 0, cardToInsert);
+// console.table(cards);
+
+// const cardToUpdate = 'Картка-4';
+// const index = cards.indexOf(cardToUpdate);
+
+// console.log(index);
+
+// cards.splice(index, 1, 'Оновлена карта-4');
+// console.table(cards);
