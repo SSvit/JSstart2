@@ -213,15 +213,15 @@
 
 // console.log(total);
 
-const cards = [
-  'Картка-1',
-  'Картка-2',
-  'Картка-3',
-  'Картка-4',
-  'Картка-5',
-];
+// const cards = [
+//   'Картка-1',
+//   'Картка-2',
+//   'Картка-3',
+//   'Картка-4',
+//   'Картка-5',
+// ];
 
-console.table(cards);
+// console.table(cards);
 
 // const cardToRemove = 'Картка-3';
 // const index = cards.indexOf(cardToRemove);
