@@ -22,7 +22,6 @@
 // genres.splice(1, 0, twoGenres);
 // console.log(genres);
 
-
 // //задача 2
 // const values = '8 11';
 // console.log(values);
@@ -41,4 +40,19 @@
 // const area = Number(width) * Number(heidht);
 // console.log(area);
 
-//задача 3
+// //задача 3
+// const fruits = [
+//   'яблоко',
+//   'виноград',
+//   'персик',
+//   'банан',
+//   'лимон',
+// ];
+
+// for (
+//   let i = 0;
+//   i < fruits.length;
+//   i += 1
+// ) {
+//   console.log(`$(i + 1): ${fruits[i]}`);
+// }
