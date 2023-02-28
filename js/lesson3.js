@@ -40,3 +40,5 @@
 
 // const area = Number(width) * Number(heidht);
 // console.log(area);
+
+//задача 3
